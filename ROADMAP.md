@@ -31,9 +31,9 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] Use optional props with defaults (`name?: string`, `name = 'Guest'`)
 - [x] Handle DOM events with correct TypeScript types (`React.MouseEvent`, `React.ChangeEvent<HTMLInputElement>`)
 - [x] Build a controlled input (value + onChange pair)
-- [ ] → Render a typed list with `.map()` — understand the `key` prop requirement
-- [ ] Use conditional rendering (`&&`, ternary, early return)
-- [ ] Lift state up between two sibling components
+- [x] Render a typed list with `.map()` — understand the `key` prop requirement
+- [x] Use conditional rendering (`&&`, ternary, early return)
+- [x] Lift state up between two sibling components
 
 **Exit gate:** Build a typed todo list — add, toggle, delete — no hooks beyond `useState`.
 
@@ -43,7 +43,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 > The gap most mid-level devs have. Senior devs know exactly why each hook exists.
 
-- [ ] `useEffect` — sync with an external thing (timer, subscription, localStorage)
+- [ ] → `useEffect` — sync with an external thing (timer, subscription, localStorage)
 - [ ] Explain every case: no deps array vs `[]` vs `[value]`
 - [ ] Write a `useEffect` cleanup function — when and why
 - [ ] `useRef` — two uses: DOM ref and mutable value that doesn't re-render
