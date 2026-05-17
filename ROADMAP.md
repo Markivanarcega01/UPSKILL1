@@ -49,8 +49,8 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] `useRef` — two uses: DOM ref and mutable value that doesn't re-render
 - [x] `useCallback` — when it helps, when it's premature optimization
 - [x] `useMemo` — same: when the cost justifies it
-- [ ] Write a custom hook (`useLocalStorage`, `useDebounce`, `useWindowSize`)
-- [ ] Know the rules of hooks — and why they exist (linked list internals, conceptually)
+- [x] Write a custom hook (`useLocalStorage`, `useDebounce`, `useWindowSize`)
+- [x] Know the rules of hooks — and why they exist (linked list internals, conceptually)
 
 **Exit gate:** Build a `useDebounce` hook with tests. Explain why `useMemo`/`useCallback` are not free.
 
