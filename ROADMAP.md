@@ -43,12 +43,12 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 > The gap most mid-level devs have. Senior devs know exactly why each hook exists.
 
-- [ ] → `useEffect` — sync with an external thing (timer, subscription, localStorage)
-- [ ] Explain every case: no deps array vs `[]` vs `[value]`
-- [ ] Write a `useEffect` cleanup function — when and why
-- [ ] `useRef` — two uses: DOM ref and mutable value that doesn't re-render
-- [ ] `useCallback` — when it helps, when it's premature optimization
-- [ ] `useMemo` — same: when the cost justifies it
+- [x] `useEffect` — sync with an external thing (timer, subscription, localStorage)
+- [x] Explain every case: no deps array vs `[]` vs `[value]`
+- [x] Write a `useEffect` cleanup function — when and why
+- [x] `useRef` — two uses: DOM ref and mutable value that doesn't re-render
+- [x] `useCallback` — when it helps, when it's premature optimization
+- [x] `useMemo` — same: when the cost justifies it
 - [ ] Write a custom hook (`useLocalStorage`, `useDebounce`, `useWindowSize`)
 - [ ] Know the rules of hooks — and why they exist (linked list internals, conceptually)
 
