@@ -60,7 +60,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 > How senior devs think about component design. The patterns that scale.
 
-- [ ] Explain the single responsibility principle applied to components
+- [x] Explain the single responsibility principle applied to components
 - [ ] Use composition over configuration — pass children and render props
 - [ ] Build a compound component (e.g. `<Tabs>` + `<Tab>` + `<TabPanel>`)
 - [ ] Use `React.Children` and `cloneElement` — understand when and why
