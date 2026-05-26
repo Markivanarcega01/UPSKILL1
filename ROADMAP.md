@@ -63,7 +63,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] Explain the single responsibility principle applied to components
 - [x] Use composition over configuration — pass children and render props
 - [x] Build a compound component (e.g. `<Tabs>` + `<Tab>` + `<TabPanel>`)
-- [ ] Use `React.Children` and `cloneElement` — understand when and why
+- [x] Use `React.Children` and `cloneElement` — understand when and why
 - [ ] Implement the render prop pattern
 - [ ] Understand when a HOC (higher-order component) is still the right call
 - [ ] Know the prop drilling problem and when to solve it (and when not to)
