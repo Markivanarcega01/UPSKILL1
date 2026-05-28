@@ -64,7 +64,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] Use composition over configuration — pass children and render props
 - [x] Build a compound component (e.g. `<Tabs>` + `<Tab>` + `<TabPanel>`)
 - [x] Use `React.Children` and `cloneElement` — understand when and why
-- [ ] Implement the render prop pattern
+- [x] Implement the render prop pattern
 - [ ] Understand when a HOC (higher-order component) is still the right call
 - [ ] Know the prop drilling problem and when to solve it (and when not to)
 
