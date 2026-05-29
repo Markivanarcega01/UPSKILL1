@@ -65,8 +65,8 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] Build a compound component (e.g. `<Tabs>` + `<Tab>` + `<TabPanel>`)
 - [x] Use `React.Children` and `cloneElement` — understand when and why
 - [x] Implement the render prop pattern
-- [ ] Understand when a HOC (higher-order component) is still the right call
-- [ ] Know the prop drilling problem and when to solve it (and when not to)
+- [x] Understand when a HOC (higher-order component) is still the right call
+- [x] Know the prop drilling problem and when to solve it (and when not to)
 
 **Exit gate:** Refactor a deeply-nested prop-drilling component into a compound component. Explain the trade-offs.
 
