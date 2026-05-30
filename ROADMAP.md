@@ -76,8 +76,8 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 > Pick the right tool. Senior devs don't reach for Redux by default.
 
-- [ ] `useContext` + `useReducer` as a lightweight global state solution
-- [ ] Know the context re-render problem — and how to fix it (split contexts, memoization)
+- [x] `useContext` + `useReducer` as a lightweight global state solution
+- [x] Know the context re-render problem — and how to fix it (split contexts, memoization)
 - [ ] Zustand: set up a store, read state, write actions, use slices
 - [ ] Redux Toolkit: `createSlice`, `configureStore`, `useSelector`, `useDispatch`
 - [ ] State co-location rule: keep state as close to where it's used as possible
