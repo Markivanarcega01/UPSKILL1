@@ -78,10 +78,10 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 - [x] `useContext` + `useReducer` as a lightweight global state solution
 - [x] Know the context re-render problem — and how to fix it (split contexts, memoization)
-- [ ] Zustand: set up a store, read state, write actions, use slices
-- [ ] Redux Toolkit: `createSlice`, `configureStore`, `useSelector`, `useDispatch`
-- [ ] State co-location rule: keep state as close to where it's used as possible
-- [ ] Identify when you don't need global state (server state ≠ client state)
+- [x] Zustand: set up a store, read state, write actions, use slices
+- [x] Redux Toolkit: `createSlice`, `configureStore`, `useSelector`, `useDispatch`
+- [x] State co-location rule: keep state as close to where it's used as possible
+- [x] Identify when you don't need global state (server state ≠ client state)
 
 **Exit gate:** Build a shopping cart with Zustand. Justify why you didn't use Redux.
 
