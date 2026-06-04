@@ -91,8 +91,8 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 > Most senior interviews include a question about async data and error handling.
 
-- [ ] Type a `fetch` call end-to-end — request, response shape, error handling
-- [ ] Write a generic `useFetch` hook (then understand why TanStack Query exists)
+- [x] Type a `fetch` call end-to-end — request, response shape, error handling
+- [x] Write a generic `useFetch` hook (then understand why TanStack Query exists)
 - [ ] TanStack Query: `useQuery`, `useMutation`, query keys, stale time
 - [ ] Handle loading, error, and empty states explicitly — not just happy path
 - [ ] Optimistic updates with TanStack Query
