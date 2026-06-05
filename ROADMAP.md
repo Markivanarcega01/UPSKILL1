@@ -93,7 +93,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 
 - [x] Type a `fetch` call end-to-end — request, response shape, error handling
 - [x] Write a generic `useFetch` hook (then understand why TanStack Query exists)
-- [ ] TanStack Query: `useQuery`, `useMutation`, query keys, stale time
+- [x] TanStack Query: `useQuery`, `useMutation`, query keys, stale time
 - [ ] Handle loading, error, and empty states explicitly — not just happy path
 - [ ] Optimistic updates with TanStack Query
 - [ ] Error boundaries — what they catch, what they don't, how to use them

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { useQuery } from "@tanstack/react-query";
 // --- Types ---
 
 export interface User {
@@ -63,4 +63,12 @@ export function useFetch<T>(url: string): {
   }, [url]);
 
   return { data, loading, error };
+}
+
+export function useUser(userId: number) {
+  return useQuery({
+    queryKey: ["user", userId],
+    queryFn: () => getUser(userId),
+    staleTime: 1000 * 60 * 5, //5 minutes
+  });
 }
