@@ -30,39 +30,45 @@ export async function getUser(userId: number): Promise<User> {
 
 // --- Exercise 2: Generic useFetch hook ---
 // Fill in the three sections below.
+export type FetchState<T> =
+  | { status: "success"; data: T }
+  | { status: "error"; error: string }
+  | { status: "loading" };
 
-export function useFetch<T>(url: string): {
-  data: T | null;
-  loading: boolean;
-  error: string | null;
-} {
+export function useFetch<T>(url: string): FetchState<T> {
   // 1. declare state for data, loading, and error
 
   // 2. useEffect — fetch url, update state on success and error
   //    hint: remember the async-inside-useEffect pattern
 
   // 3. return the three values
-  const [data, setData] = useState<T | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  //const [data, setData] = useState<T | null>(null);
+  //const [loading, setLoading] = useState<boolean>(true);
+  //const [error, setError] = useState<string | null>(null);
+
+  const [state, setState] = useState<FetchState<T>>({ status: "loading" });
 
   useEffect(() => {
     async function fetching() {
       try {
         await fetch(url).then(async (data) => {
-          const result = (await data.json()) as T;
-          setData(result);
+          if (data.ok) {
+            const result = (await data.json()) as T;
+            setState({ status: "success", data: result });
+          } else {
+            throw new Error(`Server Error: ${data.status}`);
+          }
         });
       } catch (error) {
-        setError(error instanceof Error ? error.message : "Unknown Error");
-      } finally {
-        setLoading(false);
+        const message =
+          error instanceof Error ? error.message : "Unknown error";
+        setState({ status: "error", error: message });
       }
     }
     fetching();
   }, [url]);
 
-  return { data, loading, error };
+  return state;
 }
 
 export function useUser(userId: number) {
