@@ -95,7 +95,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] Write a generic `useFetch` hook (then understand why TanStack Query exists)
 - [x] TanStack Query: `useQuery`, `useMutation`, query keys, stale time
 - [x] Handle loading, error, and empty states explicitly — not just happy path
-- [ ] Optimistic updates with TanStack Query
+- [x] Optimistic updates with TanStack Query
 - [ ] Error boundaries — what they catch, what they don't, how to use them
 - [ ] `Suspense` with lazy loading — code splitting at the component level
 
