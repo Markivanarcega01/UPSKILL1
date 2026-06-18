@@ -96,7 +96,7 @@ Progress key: `[x]` done · `[ ]` todo · `→` YOU ARE HERE
 - [x] TanStack Query: `useQuery`, `useMutation`, query keys, stale time
 - [x] Handle loading, error, and empty states explicitly — not just happy path
 - [x] Optimistic updates with TanStack Query
-- [ ] Error boundaries — what they catch, what they don't, how to use them
+- [x] Error boundaries — what they catch, what they don't, how to use them
 - [ ] `Suspense` with lazy loading — code splitting at the component level
 
 **Exit gate:** Build a paginated list with TanStack Query — loading skeleton, error retry, optimistic delete.

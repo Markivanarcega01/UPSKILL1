@@ -47,6 +47,45 @@ Ask: "Did you finish any exercises today that we should mark off?"
 
 If yes — read ROADMAP.md, mark the relevant `[ ]` items as `[x]`, and confirm which ones were updated.
 
+## Step 3.5 — Obsidian note for each completed topic
+
+For every topic finished today (anything marked `[x]` in Step 3), **write a real `.md` file**
+to `notes/phase{N}-{topic-slug}.md`. Do NOT paste the note into the chat as a fenced code
+block — notes contain ```tsx code fences, and wrapping them in an outer fence breaks Obsidian
+rendering. Writing a file avoids the copy-paste mangling entirely; the learner opens it directly
+in their vault. After writing, just tell them the path.
+
+One file per topic. Use this structure (note: headings/blockquotes, NOT an outer code fence):
+
+```
+# {Topic Name}
+
+**Phase {N}** · {today's date}
+Tags: #react #typescript #{topic-tag}
+
+## TL;DR
+{1–2 sentences — the one idea that makes this topic click}
+
+## Mental model
+{The core distinction or framing, in the learner's own words where possible}
+
+## Key points
+- {point}
+
+## Code
+{minimal canonical example in a tsx fence — the smallest thing that captures the pattern}
+
+## Gotchas / interview traps
+- {thing people get wrong}
+
+## Connects to
+- [[{related topic}]]
+```
+
+Keep it tight — notes are for review, not re-teaching. Pull the "Clicked" and "Still fuzzy"
+lines from the session log so the note reflects what *this* learner actually internalized.
+Use `[[wikilinks]]` in "Connects to" so the vault auto-links related topics.
+
 ## Step 4 — One specific closing observation
 
 Write one sentence about something specific Claude noticed today — not generic praise.
